@@ -1,0 +1,7 @@
+{
+  "name": "my-mobile-app",
+  "version": "1.0.0",
+  "scripts": {
+    "backup-deps": "mkdir -p backups && cp package.json \"backups/package.json.$(date +%Y-%m-%d)\""
+  }
+}
